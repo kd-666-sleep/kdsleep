@@ -24,11 +24,24 @@ cd kdsleep
 └── .gitignore     # 忽略规则
 ```
 
+## 本地开发
+
+```bash
+# 拉取
+git clone git@github.com:kd-666-sleep/kdsleep.git && cd kdsleep
+
+# 提交（已开启 SSH 签名，提交会自动带上 Verified 标记）
+git add .
+git commit -m "feat: 你的改动说明"
+git push
+```
+
 ## 进度
 
 - [x] 创建仓库
 - [x] 配置 SSH 免密推送
 - [x] 完成第一次提交
+- [x] 开启 commit 签名（Verified ✅）
 - [ ] 写下这里要做的项目
 
 ---
