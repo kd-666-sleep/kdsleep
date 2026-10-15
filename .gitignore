@@ -1,0 +1,39 @@
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# ---- 敏感文件（千万别提交！）----
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.yml
+
+# ---- 依赖与构建产物 ----
+node_modules/
+dist/
+build/
+target/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+vendor/
